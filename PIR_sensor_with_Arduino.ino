@@ -11,13 +11,13 @@ void loop()
   if(digitalRead(pir) == HIGH)
   {
     digitalWrite(ledpin,HIGH);
-    Serial.println("Motion Detected");
+    Serial.println("Living things Detected");
     delay(500);
   }
   else
   {
     digitalWrite(ledpin,LOW);
-    Serial.println("No motion detected");
+    Serial.println("Not detected");
     delay(500);
   }
 }
